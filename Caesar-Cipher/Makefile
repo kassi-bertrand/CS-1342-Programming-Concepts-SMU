@@ -1,5 +1,5 @@
 build:
-	g++ -o cipher ./src/* -I ./include
+	g++ -Wall -o cipher ./src/* -I ./include
 
 run:
 	./cipher
